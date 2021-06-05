@@ -6,14 +6,34 @@ Project Version List and Future
 
 | Task | Version  | Status  |
 | -------------------------|:---------------------:|:----:|
-| Fluter App Setup         | 0.0.1(beta)           | [x]  |
-| Task List Display        | 0.0.2(beta)           | [x]  |
-| Add Task                 | 0.0.3(beta)           | [x]  |
-| Update Task              | 0.0.4(beta)           | [x]  |
-| Connect to sqlflite      | 0.0.5(beta)           | [x]  |  
-| Migrate to Null Safety   | 0.0.6(beta)           | [ ]  |
-| Migrate Tasks to DB      | 0.0.7(beta)           | [ ]  |
-| Launch Android App       | 0.1.0                 | [ ]  |
-| Changes to Fit Web       | 0.1.1(beta)           | [ ]  |
-| Lauch Website for TaskIt | 0.2.0                 | [ ]  |
-| Ad Task Suggestion Logic | 0.2.1                 | [ ]  |
+| Fluter App Setup          | 0.0.1(beta)           | [✓]  |
+| Task List Display         | 0.0.2(beta)           | [✓]  |
+| Add Task                  | 0.0.3(beta)           | [✓]  |
+| Update Task               | 0.0.4(beta)           | [✓]  |
+| Connect to sqlflite       | 0.0.5(beta)           | [✓]  |  
+| Migrate to Null Safety    | 0.0.6(beta)           | [✓]  |
+| Migrate Tasks to DB       | 0.0.7(beta)           | [✘]  |
+| Launch Android App        | 0.1.0                 | [✘]  |
+| Changes to Fit Web        | 0.1.1(beta)           | [✘]  |
+| Lauch Website for TaskIt  | 0.2.0                 | [✘]  |
+| Add Task Suggestion Logic | 0.2.1(beta)           | [✘]  |
+
+---
+
+### App Screenshots
+
+> Main Screen
+
+![Main Screen](https://github.com/krishnaclouds/TaskIt/blob/ce7124c39e016a8eb10970ac21f5d31a0d16c035/AppScreenshots/MainApp.PNG?raw=true)
+
+---
+
+> Add Task Screen
+
+![Add Task Screen](https://github.com/krishnaclouds/TaskIt/blob/ce7124c39e016a8eb10970ac21f5d31a0d16c035/AppScreenshots/AddTask.PNG?raw=true)
+
+---
+
+> Update Task Screen
+
+![Update Task Screen](https://github.com/krishnaclouds/TaskIt/blob/ce7124c39e016a8eb10970ac21f5d31a0d16c035/AppScreenshots/UpdateTask.PNG?raw=true)
