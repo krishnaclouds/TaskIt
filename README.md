@@ -22,13 +22,16 @@ Project Version List and Future
 | Connect to sqlflite       | 0.0.5(beta)           | [✓]  |  
 | Migrate to Null Safety    | 0.0.6(beta)           | [✓]  |
 | Add Icons for Android     | 0.0.7(beta)           | [✓]  |
-| Launch Android App        | 0.1.0                 | [✘]  |
+| Launch Android App        | 0.1.0                 | [✓]  |
 | Migrate Tasks to DB       | 0.1.1(beta)           | [✘]  |
 | Changes to Fit Web        | 0.1.2(beta)           | [✘]  |
 | Launch Website for TaskIt | 0.2.0                 | [✘]  |
 | Add Task Suggestion Logic | 0.2.1(beta)           | [✘]  |
 
 ---
+
+### Release Alert
+> App has been release to Play Store on 05/06/2021 with the Name : TaskIt . Currently in Review State.
 
 ### App Screenshots
 
