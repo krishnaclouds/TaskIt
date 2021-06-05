@@ -10,6 +10,11 @@
 ![Flutter](https://github.com/krishnaclouds/TaskIt/blob/4b369e7f2b5a32f1a6c56526ff37549df0079dbb/AppScreenshots/flutterio-ar21.svg?raw=true)
 
 ---
+### Application Overview
+
+![TaskIt Application](https://github.com/krishnaclouds/TaskIt/blob/3a921be8036c7760e3f47eb59fca0d798bdedab5/AppScreenshots/1024by500.PNG?raw=true)
+
+---
 
 Project Version List and Future
 
@@ -33,20 +38,4 @@ Project Version List and Future
 ### Release Alert
 > App has been release to Play Store on 05/06/2021 with the Name : TaskIt . Currently in Review State.
 
-### App Screenshots
-
-> Main Screen
-
-![Main Screen](https://github.com/krishnaclouds/TaskIt/blob/ce7124c39e016a8eb10970ac21f5d31a0d16c035/AppScreenshots/MainApp.PNG?raw=true)
-
 ---
-
-> Add Task Screen
-
-![Add Task Screen](https://github.com/krishnaclouds/TaskIt/blob/ce7124c39e016a8eb10970ac21f5d31a0d16c035/AppScreenshots/AddTask.PNG?raw=true)
-
----
-
-> Update Task Screen
-
-![Update Task Screen](https://github.com/krishnaclouds/TaskIt/blob/ce7124c39e016a8eb10970ac21f5d31a0d16c035/AppScreenshots/UpdateTask.PNG?raw=true)
