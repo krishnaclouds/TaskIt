@@ -1,6 +1,8 @@
 # taskit
 
-> Not Just Another Todo App
+> Not Just Another Todo App. 
+
+##### P.S: An App build to test the features of Flutter and will continue to update as the world of flutter expands along
 
 ---
 #### Made with ❤️ <i style="font-size: 12px;">and</i> 
