@@ -27,11 +27,11 @@ Project Version List and Future
 | Connect to sqlflite       | 0.0.5(beta)           | [✓]  |  
 | Migrate to Null Safety    | 0.0.6(beta)           | [✓]  |
 | Add Icons for Android     | 0.0.7(beta)           | [✓]  |
-| Launch Android App        | 0.1.0                 | [✓]  |
-| Migrate Tasks to DB       | 0.1.1(beta)           | [✘]  |
-| Changes to Fit Web        | 0.1.2(beta)           | [✘]  |
-| Launch Website for TaskIt | 0.2.0                 | [✘]  |
-| Add Task Suggestion Logic | 0.2.1(beta)           | [✘]  |
+| Launch Android App        | 1.0.0                 | [✓]  |
+| Migrate Tasks to DB       | 1.0.1(beta)           | [✘]  |
+| Changes to Fit Web        | 1.0.2(beta)           | [✘]  |
+| Launch Website for TaskIt | 1.1.0                 | [✘]  |
+| Add Task Suggestion Logic | 1.1.1(beta)           | [✘]  |
 
 ---
 
