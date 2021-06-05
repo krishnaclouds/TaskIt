@@ -2,6 +2,13 @@
 
 > Not Just Another Todo App
 
+---
+#### Made with ❤️ <i style="font-size: 12px;">and</i> 
+
+![Flutter](https://github.com/krishnaclouds/TaskIt/blob/4b369e7f2b5a32f1a6c56526ff37549df0079dbb/AppScreenshots/flutterio-ar21.svg?raw=true)
+
+---
+
 Project Version List and Future
 
 | Task | Version  | Status  |
