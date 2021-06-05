@@ -12,6 +12,7 @@ Project Version List and Future
 | Update Task               | 0.0.4(beta)           | [✓]  |
 | Connect to sqlflite       | 0.0.5(beta)           | [✓]  |  
 | Migrate to Null Safety    | 0.0.6(beta)           | [✓]  |
+| Add Icons for Android     | 0.0.7(beta)           | [✓]  |
 | Launch Android App        | 0.1.0                 | [✘]  |
 | Migrate Tasks to DB       | 0.1.1(beta)           | [✘]  |
 | Changes to Fit Web        | 0.1.2(beta)           | [✘]  |
