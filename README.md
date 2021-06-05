@@ -1,16 +1,19 @@
 # taskit
 
-Not Just Another Todo App
+> Not Just Another Todo App
 
-## Getting Started
+Project Version List and Future
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| Task | Version  | Status  |
+| -------------------------|:---------------------:|:----:|
+| Fluter App Setup         | 0.0.1(beta)           | [x]  |
+| Task List Display        | 0.0.2(beta)           | [x]  |
+| Add Task                 | 0.0.3(beta)           | [x]  |
+| Update Task              | 0.0.4(beta)           | [x]  |
+| Connect to sqlflite      | 0.0.5(beta)           | [x]  |  
+| Migrate to Null Safety   | 0.0.6(beta)           | [ ]  |
+| Migrate Tasks to DB      | 0.0.7(beta)           | [ ]  |
+| Launch Android App       | 0.1.0                 | [ ]  |
+| Changes to Fit Web       | 0.1.1(beta)           | [ ]  |
+| Lauch Website for TaskIt | 0.2.0                 | [ ]  |
+| Ad Task Suggestion Logic | 0.2.1                 | [ ]  |
