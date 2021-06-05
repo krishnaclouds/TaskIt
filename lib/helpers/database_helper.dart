@@ -19,9 +19,6 @@ class DatabaseHelper {
   String colStatus = 'status';
 
   Future<Database> get db async {
-    // if(_db != null){
-    //   return _db;
-    // }
     _db = await _initDb();
     return _db;
   }
