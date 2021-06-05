@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:io';
 import 'package:path_provider/path_provider.dart';
 import 'package:sqflite/sqflite.dart';
@@ -8,7 +9,7 @@ class DatabaseHelper {
   DatabaseHelper._privateConstructor();
   static final DatabaseHelper instance = DatabaseHelper._privateConstructor();
 
-  static Database _db;
+  static late Database _db;
 
   String tasksTable = 'task_table';
   String colId = 'id';
@@ -50,7 +51,7 @@ class DatabaseHelper {
     taskMapList.forEach((taskMap) {
       taskList.add(Task.fromMap(taskMap));
     });
-    taskList.sort((taskA, taskB) => taskA.date.compareTo(taskB.date));
+    taskList.sort((taskA, taskB) => taskA.date!.compareTo(taskB.date!));
     return taskList;
   }
 
@@ -67,7 +68,7 @@ class DatabaseHelper {
     return result;
   }
 
-  Future<int> deleteTask(int id) async {
+  Future<int> deleteTask(int? id) async {
     Database db = await this.db;
     final int result =
         await db.delete(tasksTable, where: '$colId = ?', whereArgs: [id]);
