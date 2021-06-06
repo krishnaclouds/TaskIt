@@ -72,6 +72,18 @@ class _TodoListScreenState extends State<TodoListScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: Drawer(
+        child: Column(
+          children: [
+            Text('Option 1'),
+            Text('Option 2'),
+            Text('Option 3')
+          ],
+        ),
+      ),
+      appBar: AppBar(
+        title: Text('TaskIt'),
+      ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Theme.of(context).primaryColor,
         onPressed: () => {
