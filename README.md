@@ -38,6 +38,6 @@ Project Version List and Future
 ---
 
 ### Release Alert
-> App has been release to Play Store on 05/06/2021 with the Name : TaskIt . Currently in Review State.
+> App has been released to Android Play Store on 05/06/2021 with the Name : TaskIt . Currently in Review State.
 
 ---
