@@ -32,8 +32,8 @@ Project Version List and Future
 | Change theme Option       | 1.0.1                 | [✘]  |
 | Migrate Tasks to DB       | 1.1.1(beta)           | [✘]  |
 | Changes to Fit Web        | 1.1.2(beta)           | [✘]  |
-| Launch Website for TaskIt | 1.1.0                 | [✘]  |
-| Add Task Suggestion Logic | 1.1.1(beta)           | [✘]  |
+| Launch Website for TaskIt | 1.2.0                 | [✘]  |
+| Add Task Suggestion Logic | 1.2.1(beta)           | [✘]  |
 
 ---
 
