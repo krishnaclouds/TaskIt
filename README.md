@@ -28,8 +28,10 @@ Project Version List and Future
 | Migrate to Null Safety    | 0.0.6(beta)           | [✓]  |
 | Add Icons for Android     | 0.0.7(beta)           | [✓]  |
 | Launch Android App        | 1.0.0                 | [✓]  |
-| Migrate Tasks to DB       | 1.0.1(beta)           | [✘]  |
-| Changes to Fit Web        | 1.0.2(beta)           | [✘]  |
+| Add App Drawer            | 1.0.1                 | [✘]  |
+| Change theme Option       | 1.0.1                 | [✘]  |
+| Migrate Tasks to DB       | 1.1.1(beta)           | [✘]  |
+| Changes to Fit Web        | 1.1.2(beta)           | [✘]  |
 | Launch Website for TaskIt | 1.1.0                 | [✘]  |
 | Add Task Suggestion Logic | 1.1.1(beta)           | [✘]  |
 
