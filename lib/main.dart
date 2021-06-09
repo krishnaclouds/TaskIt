@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:taskit/screens/login_screen.dart';
 import 'package:taskit/screens/todo_list_screen.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.orange,
       ),
-      home: TodoListScreen(),
+      home: Auth(),
     );
   }
 }

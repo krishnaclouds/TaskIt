@@ -29,7 +29,9 @@ Project Version List and Future
 | Add Icons for Android     | 0.0.7(beta)           | [✓]  |
 | Launch Android App        | 1.0.0                 | [✓]  |
 | Add App Drawer            | 1.0.1                 | [✓]  |
-| Change theme Option       | 1.0.1                 | [✘]  |
+| Login Page Design         | 1.0.2                 | [✓]  |
+| login Page Integr'        | 1.0.3                 | [✓]  |
+| Change theme Option       | 1.0.4                 | [✘]  |
 | Migrate Tasks to DB       | 1.1.1(beta)           | [✘]  |
 | Changes to Fit Web        | 1.1.2(beta)           | [✘]  |
 | Launch Website for TaskIt | 1.2.0                 | [✘]  |
