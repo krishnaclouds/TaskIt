@@ -108,9 +108,10 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
                 Text(
                   widget.task == null ? 'Add Task' : 'Update Task',
                   style: TextStyle(
+                      fontFamily: 'ProximaNova',
                       color: Colors.black,
-                      fontSize: 40.0,
-                      fontWeight: FontWeight.bold),
+                      fontWeight: FontWeight.w800,
+                      fontSize: 40.0),
                 ),
                 SizedBox(
                   height: 10.0,
@@ -125,7 +126,12 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
                           style: TextStyle(fontSize: 18),
                           decoration: InputDecoration(
                               labelText: 'Title',
-                              labelStyle: TextStyle(fontSize: 18),
+                              labelStyle: TextStyle(
+                                fontSize: 18,
+                                fontFamily: 'ProximaNova',
+                                color: Colors.black,
+                                fontWeight: FontWeight.w800,
+                              ),
                               border: OutlineInputBorder(
                                   borderRadius: BorderRadius.circular(10.0))),
                           validator: (input) => input!.trim().isEmpty
@@ -144,7 +150,12 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
                           onTap: _handleDatePicker,
                           decoration: InputDecoration(
                               labelText: 'Date',
-                              labelStyle: TextStyle(fontSize: 18),
+                              labelStyle: TextStyle(
+                                fontSize: 18,
+                                fontFamily: 'ProximaNova',
+                                color: Colors.black,
+                                fontWeight: FontWeight.w800,
+                              ),
                               border: OutlineInputBorder(
                                   borderRadius: BorderRadius.circular(10.0))),
                         ),
@@ -159,12 +170,18 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
                           style: TextStyle(fontSize: 18),
                           decoration: InputDecoration(
                               labelText: 'Priority',
-                              labelStyle: TextStyle(fontSize: 18),
+                              labelStyle: TextStyle(
+                                fontSize: 18,
+                                fontFamily: 'ProximaNova',
+                                color: Colors.black,
+                                fontWeight: FontWeight.w800,
+                              ),
                               border: OutlineInputBorder(
                                   borderRadius: BorderRadius.circular(10.0))),
-                          validator: (dynamic input) => input.toString().trim().isEmpty
-                              ? 'Please Select a Priority Level'
-                              : null,
+                          validator: (dynamic input) =>
+                              input.toString().trim().isEmpty
+                                  ? 'Please Select a Priority Level'
+                                  : null,
                           // onSaved: (input) => _priority = input.toString(),
                           items: _priorities.map((String priority) {
                             return DropdownMenuItem(
@@ -172,7 +189,10 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
                                 child: new Text(
                                   priority,
                                   style: TextStyle(
-                                      color: Colors.black, fontSize: 18.0),
+                                      fontFamily: 'ProximaNova',
+                                      color: Colors.black,
+                                      fontWeight: FontWeight.w800,
+                                      fontSize: 18.0),
                                 ));
                           }).toList(),
                           onChanged: (dynamic newValue) {
@@ -195,8 +215,12 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
                           onPressed: _submit,
                           child: Text(
                             widget.task == null ? 'Add' : 'Update',
-                            style:
-                                TextStyle(color: Colors.white, fontSize: 20.0),
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 20.0,
+                              fontFamily: 'ProximaNova',
+                              fontWeight: FontWeight.w800,
+                            ),
                           ),
                         ),
                       ),
@@ -213,7 +237,11 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
                                 child: Text(
                                   'Delete',
                                   style: TextStyle(
-                                      color: Colors.white, fontSize: 20.0),
+                                    color: Colors.white,
+                                    fontSize: 20.0,
+                                    fontFamily: 'ProximaNova',
+                                    fontWeight: FontWeight.w800,
+                                  ),
                                 ),
                               ),
                             )

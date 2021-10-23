@@ -1,12 +1,12 @@
 name: taskit
 description: Not Just Another Todo App
 
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 version: 1.0.0+1
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
   flutter:
@@ -22,12 +22,11 @@ dev_dependencies:
   flutter_launcher_icons: "^0.8.0"
 
 flutter_icons:
-  image_path: 'assets/logo.png'
-  android : true
+  image_path: "assets/logo.png"
+  android: true
 
 # The following section is specific to Flutter.
 flutter:
-
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
@@ -46,6 +45,13 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
+  fonts:
+    - family: ProximaNova
+      fonts:
+        - asset: assets/fonts/Proxima-Nova-Bold.otf
+        - asset: assets/fonts/Proxima-Nova-Regular.ttf
+          weight: 800
+
   # fonts:
   #   - family: Schyler
   #     fonts:

@@ -35,6 +35,8 @@ class _TodoListScreenState extends State<TodoListScreen> {
             title: Text(
               task.title!,
               style: TextStyle(
+                  fontFamily: 'ProximaNova',
+                  fontWeight: FontWeight.w800,
                   fontSize: 18,
                   decoration: task.status == 0
                       ? TextDecoration.none
@@ -43,6 +45,8 @@ class _TodoListScreenState extends State<TodoListScreen> {
             subtitle: Text(
               '${_dateFormatter.format(task.date!)} * ${task.priority}',
               style: TextStyle(
+                  fontFamily: 'ProximaNova',
+                  fontWeight: FontWeight.w800,
                   fontSize: 15,
                   decoration: task.status == 0
                       ? TextDecoration.none
@@ -74,15 +78,15 @@ class _TodoListScreenState extends State<TodoListScreen> {
     return Scaffold(
       drawer: Drawer(
         child: Column(
-          children: [
-            Text('Option 1'),
-            Text('Option 2'),
-            Text('Option 3')
-          ],
+          children: [Text('Option 1'), Text('Option 2'), Text('Option 3')],
         ),
       ),
       appBar: AppBar(
-        title: Text('TaskIt'),
+        title: Text('TaskIt',
+            style: TextStyle(
+              fontFamily: 'ProximaNova',
+              fontWeight: FontWeight.w800,
+            )),
       ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Theme.of(context).primaryColor,
@@ -90,9 +94,7 @@ class _TodoListScreenState extends State<TodoListScreen> {
           Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (_) => AddTaskScreen(
-                updateTaskList : _updateTaskList
-              ),
+              builder: (_) => AddTaskScreen(updateTaskList: _updateTaskList),
             ),
           )
         },
@@ -114,7 +116,7 @@ class _TodoListScreenState extends State<TodoListScreen> {
 
           return ListView.builder(
             padding: EdgeInsets.symmetric(vertical: 60.0),
-            itemCount: 1 + (snapshot.data as List<Task>).length ,
+            itemCount: 1 + (snapshot.data as List<Task>).length,
             itemBuilder: (BuildContext context, int index) {
               if (index == 0) {
                 return Padding(
@@ -126,9 +128,11 @@ class _TodoListScreenState extends State<TodoListScreen> {
                       Text(
                         'My Tasks',
                         style: TextStyle(
-                            color: Colors.black,
-                            fontSize: 30,
-                            fontWeight: FontWeight.bold),
+                          fontFamily: 'ProximaNova',
+                          color: Colors.black,
+                          fontWeight: FontWeight.w800,
+                          fontSize: 30,
+                        ),
                       ),
                       SizedBox(
                         height: 10.0,
@@ -136,6 +140,7 @@ class _TodoListScreenState extends State<TodoListScreen> {
                       Text(
                         '$completedTaskCount of ${(snapshot.data as List<Task>).length}',
                         style: TextStyle(
+                            fontFamily: 'ProximaNova',
                             color: Colors.grey,
                             fontSize: 15.0,
                             fontWeight: FontWeight.w600),

@@ -65,6 +65,7 @@ class _AuthState extends State<Auth> {
                 Text(
                   'TaskIt',
                   style: TextStyle(
+                    fontFamily: 'ProximaNova',
                     fontSize: 60.0,
                   ),
                 ),
@@ -76,6 +77,8 @@ class _AuthState extends State<Auth> {
                     style: TextStyle(
                         fontSize: 20.0,
                         fontStyle: FontStyle.italic,
+                        fontFamily: 'ProximaNova',
+                        fontWeight: FontWeight.w800,
                         color: Colors.grey),
                   ),
                 ),
@@ -101,7 +104,11 @@ class _AuthState extends State<Auth> {
             decoration: InputDecoration(
                 labelText: 'EMAIL',
                 labelStyle: TextStyle(
-                    fontSize: 12.0, color: Colors.grey.withOpacity(0.5)),
+                  fontSize: 12.0,
+                  color: Colors.grey.withOpacity(0.5),
+                  fontFamily: 'ProximaNova',
+                  fontWeight: FontWeight.w800,
+                ),
                 focusedBorder: UnderlineInputBorder(
                   borderSide: BorderSide(color: Colors.orange),
                 )),
@@ -114,7 +121,11 @@ class _AuthState extends State<Auth> {
               decoration: InputDecoration(
                   labelText: 'PASSWORD',
                   labelStyle: TextStyle(
-                      fontSize: 12.0, color: Colors.grey.withOpacity(0.5)),
+                    fontSize: 12.0,
+                    color: Colors.grey.withOpacity(0.5),
+                    fontFamily: 'ProximaNova',
+                    fontWeight: FontWeight.w800,
+                  ),
                   focusedBorder: UnderlineInputBorder(
                     borderSide: BorderSide(color: greenColor),
                   )),
@@ -136,9 +147,12 @@ class _AuthState extends State<Auth> {
                   child: InkWell(
                       child: Text('Forgot Password',
                           style: TextStyle(
-                              color: greenColor,
-                              fontSize: 11.0,
-                              decoration: TextDecoration.underline))))),
+                            color: greenColor,
+                            fontSize: 11.0,
+                            decoration: TextDecoration.underline,
+                            fontFamily: 'ProximaNova',
+                            fontWeight: FontWeight.w800,
+                          ))))),
           SizedBox(height: 50.0),
           GestureDetector(
             onTap: () {
@@ -153,7 +167,11 @@ class _AuthState extends State<Auth> {
                     elevation: 4.0,
                     child: Center(
                         child: Text('LOGIN',
-                            style: TextStyle(color: Colors.white))))),
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontFamily: 'ProximaNova',
+                              fontWeight: FontWeight.w800,
+                            ))))),
           ),
         ],
       ),
